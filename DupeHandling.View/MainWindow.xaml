@@ -1,0 +1,15 @@
+﻿<Window x:Class="GrillinPirate.DupeHandling.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GrillinPirate.DupeHandling"
+        mc:Ignorable="d"
+        Title="StartApp" Height="350" Width="525" Background="Black">
+    <Grid>
+        <Button x:Name="button" Content="Select Folder" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="150" Foreground="#FF00A800" BorderBrush="#FF00A800" Background="Black" Height="25"/>
+        <Button x:Name="button1" Content="Search Again" HorizontalAlignment="Left" Margin="165,10,0,0" VerticalAlignment="Top" Width="75" Background="Black" BorderBrush="#FF00A800" Foreground="#FF00A400" Height="25"/>
+        <Button x:Name="btn_Exit" Content="Exit" HorizontalAlignment="Left" Margin="432,10,0,0" VerticalAlignment="Top" Width="75" Background="Black" BorderBrush="#FF00A800" Foreground="#FF00A800" Click="btn_Exit_Click"/>
+
+    </Grid>
+</Window>
